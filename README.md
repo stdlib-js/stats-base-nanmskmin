@@ -162,7 +162,7 @@ var v = nanmskmin.ndarray( N, x, 2, 1, mask, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmskmin`][@stdlib/stats/base/dnanmskmin], [`snanmskmin`][@stdlib/stats/base/snanmskmin], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmskmin`][@stdlib/stats/strided/dnanmskmin], [`snanmskmin`][@stdlib/stats/base/snanmskmin], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -218,7 +218,7 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats-base/dnanmskmin`][@stdlib/stats/base/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dnanmskmin`][@stdlib/stats/strided/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmskmax`][@stdlib/stats/base/nanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask, ignoring NaN values.</span>
@@ -254,7 +254,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -306,7 +306,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats-base-dnanmskmin
+[@stdlib/stats/strided/dnanmskmin]: https://github.com/stdlib-js/stats-strided-dnanmskmin
 
 [@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats-base-mskmin
 
