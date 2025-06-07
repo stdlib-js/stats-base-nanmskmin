@@ -162,7 +162,7 @@ var v = nanmskmin.ndarray( N, x, 2, 1, mask, 2, 1 );
 ## Notes
 
 -   If `N <= 0`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmskmin`][@stdlib/stats/strided/dnanmskmin], [`snanmskmin`][@stdlib/stats/base/snanmskmin], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmskmin`][@stdlib/stats/strided/dnanmskmin], [`snanmskmin`][@stdlib/stats/strided/snanmskmin], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -222,7 +222,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats-base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmskmax`][@stdlib/stats/base/nanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats-base/snanmskmin`][@stdlib/stats/base/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/snanmskmin`][@stdlib/stats/strided/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 
 </section>
 
@@ -314,7 +314,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/nanmskmax]: https://github.com/stdlib-js/stats-base-nanmskmax
 
-[@stdlib/stats/base/snanmskmin]: https://github.com/stdlib-js/stats-base-snanmskmin
+[@stdlib/stats/strided/snanmskmin]: https://github.com/stdlib-js/stats-strided-snanmskmin
 
 <!-- </related-links> -->
 
