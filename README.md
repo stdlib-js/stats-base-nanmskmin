@@ -220,7 +220,7 @@ console.log( v );
 
 -   <span class="package-name">[`@stdlib/stats-strided/dnanmskmin`][@stdlib/stats/strided/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/mskmin`][@stdlib/stats/strided/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats-base/nanmin`][@stdlib/stats/base/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/nanmin`][@stdlib/stats/strided/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmskmax`][@stdlib/stats/base/nanmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/snanmskmin`][@stdlib/stats/strided/snanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 
@@ -310,7 +310,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/mskmin]: https://github.com/stdlib-js/stats-strided-mskmin
 
-[@stdlib/stats/base/nanmin]: https://github.com/stdlib-js/stats-base-nanmin
+[@stdlib/stats/strided/nanmin]: https://github.com/stdlib-js/stats-strided-nanmin
 
 [@stdlib/stats/base/nanmskmax]: https://github.com/stdlib-js/stats-base-nanmskmax
 
