@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-10)
+## Unreleased (2025-06-25)
+
+<section class="features">
+
+### Features
+
+-   [`2a15634`](https://github.com/stdlib-js/stdlib/commit/2a156343175765e94f3c0414f0701ad8c5c01d4b) - refactor and add protocol support to `stats/base/nanmskmin` [(#6103)](https://github.com/stdlib-js/stdlib/pull/6103)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5663](https://github.com/stdlib-js/stdlib/issues/5663)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`2a15634`](https://github.com/stdlib-js/stdlib/commit/2a156343175765e94f3c0414f0701ad8c5c01d4b) - **feat:** refactor and add protocol support to `stats/base/nanmskmin` [(#6103)](https://github.com/stdlib-js/stdlib/pull/6103) _(by Gautam Kaushik, Athan Reines, Gururaj Gurram, stdlib-bot)_
 -   [`ffc393b`](https://github.com/stdlib-js/stdlib/commit/ffc393ba0e5270509bc47ebd5350ae77c4a1ef7f) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`8718b15`](https://github.com/stdlib-js/stdlib/commit/8718b159e8d9083f3ae5d3c254d1e864af65b15c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`81d17b1`](https://github.com/stdlib-js/stdlib/commit/81d17b1bba3c9f51cf9d6c9fc0103a6480dd1e5b) - **refactor:** update paths _(by Gururaj Gurram)_
@@ -28,9 +51,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gautam Kaushik
 -   Gururaj Gurram
 
 </section>
